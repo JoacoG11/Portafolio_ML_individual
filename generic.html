@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">PortafolioML</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="generic.html" class="active">Marco Teorico</a></li>
+						<li><a href="index.html#one">Casos de estudio</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Marco Teorico</h1>
+							<span class="image fit"><img src="images/pic7.jpg" alt="" /></span>
+
+							<h2>¿Qué es el Machine Learning?</h2>
+							<p>El aprendizaje automático, conocido en inglés como "machine learning," es un subcampo de la inteligencia artificial que se centra en el desarrollo de algoritmos y modelos que permiten a las computadoras aprender y mejorar su rendimiento en tareas específicas sin ser programadas explícitamente. En lugar de seguir un conjunto de reglas fijas, las máquinas de aprendizaje automático utilizan datos y experiencias previas para tomar decisiones y mejorar su desempeño con el tiempo.</p>
+							<p>En esencia, el machine learning se basa en la capacidad de las máquinas para identificar patrones en los datos y utilizar esos patrones para hacer predicciones o tomar decisiones. Algunas de las aplicaciones comunes del aprendizaje automático incluyen la clasificación de correos electrónicos como spam o no spam, la recomendación de productos en línea, el reconocimiento de voz y facial, la detección de fraudes en tarjetas de crédito y la predicción de tendencias en datos financieros, entre muchas otras.</p>
+
+							<h2>Tipos de Algoritmos</h2>
+							<p>En el campo del Machine Learning, existen varios tipos de algoritmos que se utilizan para abordar diferentes tipos de problemas. Estos algoritmos se pueden clasificar en varias categorías según su enfoque y funcionamiento.</p>
+							<h3>Algoritmos Lineales</h3>
+							<p>Los algoritmos lineales en Machine Learning son un tipo de modelo que se basa en una suposición fundamental: que la relación entre las características de entrada y la variable objetivo es lineal. Esto significa que se asume que los datos se pueden representar mediante una función lineal.</p>
+							<h3>Regresión Lineal:</h3>
+							<ul>
+								<li><strong>Características:</strong>
+									<ul>
+										<li>Es un algoritmo de aprendizaje supervisado utilizado para predecir valores numéricos (variables dependientes) basados en una o más variables independientes.</li>
+										<li>Modela la relación entre las variables independientes y la variable dependiente como una línea recta en un espacio de características.</li>
+										<li>Puede ser utilizado en problemas de regresión simple (una variable independiente) o regresión múltiple (múltiples variables independientes).</li>
+									</ul>
+								</li>
+								<li><strong>Ventajas:</strong>
+									<ul>
+										<li>Es simple y fácil de entender, lo que lo hace adecuado para casos iniciales y como línea de base.</li>
+										<li>Rápido en el entrenamiento y la predicción.</li>
+										<li>Proporciona coeficientes que indican la fuerza y dirección de la relación entre las variables independientes y dependientes.</li>
+									</ul>
+								</li>
+								<li><strong>Desventajas:</strong>
+									<ul>
+										<li>Supone una relación lineal entre las variables, lo que puede no ser apropiado para datos con relaciones no lineales.</li>
+										<li>Sensible a valores atípicos (outliers) en los datos.</li>
+										<li>No maneja automáticamente la selección de características ni la complejidad del modelo.</li>
+									</ul>
+								</li>
+								<li><strong>Requisitos de Datos:</strong>
+									<ul>
+										<li>Las variables independientes deben estar linealmente relacionadas con la variable dependiente.</li>
+										<li>Los errores deben ser independientes y tener una distribución normal.</li>
+										<li>No debe haber multicolinealidad, es decir, las variables independientes no deben estar altamente correlacionadas entre sí.</li>
+									</ul>
+								</li>
+							</ul>
+						
+							<h3>Descenso Gradiente:</h3>
+							<ul>
+								<li><strong>Características:</strong>
+									<ul>
+										<li>El Descenso Gradiente es un algoritmo de optimización utilizado para entrenar modelos, como la Regresión Lineal, minimizando una función de costo.</li>
+										<li>Ajusta iterativamente los parámetros del modelo para encontrar los valores que minimizan la función de costo.</li>
+										<li>Puede ser utilizado en una amplia gama de algoritmos de aprendizaje automático.</li>
+									</ul>
+								</li>
+								<li><strong>Ventajas:</strong>
+									<ul>
+										<li>Es un método muy flexible y eficiente para entrenar modelos.</li>
+										<li>Converge a una solución óptima o cercana si se eligen adecuadamente la tasa de aprendizaje y otros hiperparámetros.</li>
+										<li>Puede manejar grandes conjuntos de datos y modelos con muchos parámetros.</li>
+									</ul>
+								</li>
+								<li><strong>Desventajas:</strong>
+									<ul>
+										<li>La elección de una tasa de aprendizaje inapropiada puede llevar a la convergencia lenta o a un estancamiento en óptimos locales.</li>
+										<li>No garantiza una solución única ni la convergencia en problemas no convexos.</li>
+										<li>Requiere la derivación de la función de costo, lo que puede ser complicado en algunos casos.</li>
+									</ul>
+								</li>
+								<li><strong>Requisitos de Datos:</strong>
+									<ul>
+										<li>La función de costo debe ser diferenciable con respecto a los parámetros del modelo.</li>
+										<li>Es beneficioso que los datos estén normalizados para una convergencia más rápida.</li>
+										<li>Una tasa de aprendizaje adecuada es crítica para el rendimiento del Descenso Gradiente.</li>
+									</ul>
+								</li>
+							</ul>
+						
+							<p>Para concluir, la Regresión Lineal es un algoritmo de aprendizaje supervisado simple y fácil de entender, pero limitado en su capacidad para modelar relaciones no lineales. El Descenso Gradiente es una técnica de optimización poderosa y versátil, adecuada para entrenar una amplia variedad de modelos, pero su eficacia depende en gran medida de la elección de la tasa de aprendizaje y la función de costo. Ambos algoritmos requieren datos que cumplan con ciertas condiciones para producir resultados confiables.</p>
+
+							<h3>Algoritmos No Lineales</h3>
+							<p>En el campo del Machine Learning, los algoritmos no lineales son aquellos que permiten modelar relaciones y patrones de datos que no pueden representarse de manera efectiva mediante una función lineal, es decir, relaciones que no son lineales. Estos algoritmos son esenciales cuando los datos muestran comportamientos más complejos y no se ajustan a una relación lineal simple.</p>
+							<h3>Naive Bayes:</h3>
+							<ul>
+								<li><strong>Características:</strong>
+									<ul>
+										<li>Algoritmo de clasificación basado en el teorema de Bayes.</li>
+										<li>Supone independencia condicional entre características.</li>
+										<li>Utilizado para clasificar datos en categorías o clases.</li>
+									</ul>
+								</li>
+								<li><strong>Ventajas:</strong>
+									<ul>
+										<li>Fácil de implementar y rápido en entrenamiento y clasificación.</li>
+										<li>Efectivo en problemas de clasificación de texto y minería de datos.</li>
+										<li>Funciona bien con conjuntos de datos pequeños y muchas clases.</li>
+									</ul>
+								</li>
+								<li><strong>Desventajas:</strong>
+									<ul>
+										<li>No es adecuado cuando la independencia condicional no se cumple.</li>
+										<li>No funciona bien con características altamente correlacionadas.</li>
+										<li>Puede subestimar probabilidades en datos desequilibrados.</li>
+									</ul>
+								</li>
+								<li><strong>Requisitos de Datos:</strong>
+									<ul>
+										<li>Los datos deben estar en formato categórico o discreto.</li>
+										<li>La independencia condicional es una suposición.</li>
+									</ul>
+								</li>
+							</ul>
+						
+							<h3>k-NN (k-Vecinos más Cercanos):</h3>
+							<ul>
+								<li><strong>Características:</strong>
+									<ul>
+										<li>Algoritmo de clasificación y regresión basado en similitud de datos.</li>
+										<li>Clasifica un punto en función de los k vecinos más cercanos.</li>
+										<li>Adaptable a relaciones no lineales.</li>
+									</ul>
+								</li>
+								<li><strong>Ventajas:</strong>
+									<ul>
+										<li>Fácil de entender y aplicar.</li>
+										<li>Maneja datos no lineales y ruidosos.</li>
+										<li>Utilizado en clasificación y regresión.</li>
+									</ul>
+								</li>
+								<li><strong>Desventajas:</strong>
+									<ul>
+										<li>Requiere elección adecuada de k y métrica de distancia.</li>
+										<li>Puede ser costoso con grandes conjuntos de datos.</li>
+										<li>No es adecuado para datos de alta dimensión.</li>
+									</ul>
+								</li>
+								<li><strong>Requisitos de Datos:</strong>
+									<ul>
+										<li>Requiere una métrica de distancia definida.</li>
+										<li>Normalización o estandarización de datos puede ser beneficiosa.</li>
+									</ul>
+								</li>
+							</ul>
+							<h3>Árboles de Decisión (AD):</h3>
+							<ul>
+								<li><strong>Características:</strong>
+									<ul>
+										<li>Algoritmo de clasificación y regresión que crea árboles de decisión.</li>
+										<li>Divide el conjunto de datos en función de características para tomar decisiones.</li>
+										<li>Puede manejar relaciones no lineales y es interpretable.</li>
+									</ul>
+								</li>
+								<li><strong>Ventajas:</strong>
+									<ul>
+										<li>Fácil de entender y visualizar.</li>
+										<li>Puede manejar datos categóricos y numéricos.</li>
+										<li>No requiere suposiciones sobre la distribución de datos.</li>
+									</ul>
+								</li>
+								<li><strong>Desventajas:</strong>
+									<ul>
+										<li>Puede ser propenso al sobreajuste si se construyen árboles muy profundos.</li>
+										<li>Sensible a datos ruidosos.</li>
+										<li>Puede no ser tan preciso como otros algoritmos en ciertos casos.</li>
+									</ul>
+								</li>
+								<li><strong>Requisitos de Datos:</strong>
+									<ul>
+										<li>Maneja múltiples tipos de datos, pero puede requerir preprocesamiento.</li>
+										<li>Requiere datos etiquetados para aprendizaje supervisado.</li>
+									</ul>
+								</li>
+							</ul>
+
+							<h3>Máquinas de Soporte Vectorial (SVM):</h3>
+							<ul>
+								<li><strong>Características:</strong>
+									<ul>
+										<li>Algoritmo de clasificación y regresión que busca encontrar el hiperplano óptimo que maximiza el margen entre clases.</li>
+										<li>Puede manejar relaciones no lineales mediante el uso de funciones kernel.</li>
+										<li>Eficaz en la clasificación de datos en espacios de alta dimensión.</li>
+									</ul>
+								</li>
+								<li><strong>Ventajas:</strong>
+									<ul>
+										<li>Eficaz en problemas de clasificación binaria.</li>
+										<li>Puede manejar datos con alta dimensionalidad.</li>
+										<li>Proporciona una buena generalización y control sobre el sobreajuste.</li>
+									</ul>
+								</li>
+								<li><strong>Desventajas:</strong>
+									<ul>
+										<li>Elección de función kernel y otros hiperparámetros puede ser complicada.</li>
+										<li>Puede ser costoso con grandes conjuntos de datos.</li>
+										<li>No funciona bien en datos desequilibrados sin ajustes.</li>
+									</ul>
+								</li>
+								<li><strong>Requisitos de Datos:</strong>
+									<ul>
+										<li>Requiere datos etiquetados para clasificación.</li>
+										<li>Los datos deben estar en formato numérico y, en algunos casos, normalizados.</li>
+										<li>Elección adecuada de la función kernel.</li>
+									</ul>
+								</li>
+							</ul>
+
+							<h2>Análisis de Distribuciones</h2>
+							<p>El análisis de distribución de datos desempeña un papel fundamental en los proyectos de Machine Learning. A continuación, se destacan aspectos clave de su importancia:</p>
+
+    <ul>
+        <li><strong>Selección de Modelos Apropiados:</strong> Comprender la distribución de los datos es esencial para elegir el modelo de Machine Learning más adecuado, ya que algunos algoritmos funcionan mejor con ciertas distribuciones de datos.</li>
+
+        <li><strong>Preprocesamiento de Datos:</strong> El análisis de distribución revela datos sesgados o con valores atípicos que necesitan ser tratados, lo que puede incluir transformaciones para hacer que los datos se ajusten mejor a una distribución específica.</li>
+
+        <li><strong>Interpretación de Resultados:</strong> Comprender la distribución de los datos permite interpretar los resultados del modelo de manera significativa y evaluar la confiabilidad de las predicciones.</li>
+
+        <li><strong>Validación de Suposiciones:</strong> Muchos algoritmos de Machine Learning hacen suposiciones sobre la distribución de los datos. Validar estas suposiciones es fundamental para el rendimiento correcto del modelo.</li>
+
+        <li><strong>Detección de Anomalías:</strong> El análisis de distribución es útil para detectar valores atípicos o anomalías en los datos, lo que puede indicar problemas en los datos o en el proceso de adquisición.</li>
+
+        <li><strong>Mejora de la Generalización:</strong> Comprender la distribución de datos permite ajustar los modelos para una generalización más efectiva y evita el sobreajuste.</li>
+
+        <li><strong>Visualización de Datos:</strong> La representación gráfica de la distribución de datos mediante histogramas y gráficos de densidad es efectiva para comunicar resultados y patrones.</li>
+    </ul>
+
+    <p>Algunas técnicas comunes utilizadas en el análisis de distribución incluyen:</p>
+
+    <ul>
+        <li><strong>Histogramas:</strong> Muestran la frecuencia de los valores en intervalos de datos y ayudan a visualizar la forma de la distribución.</li>
+
+        <li><strong>Gráficos de Densidad:</strong> Representan la distribución de probabilidad de los datos, lo que permite una comprensión detallada de su forma y características.</li>
+
+        <li><strong>Pruebas Estadísticas:</strong> Incluyen pruebas como la prueba de normalidad de Anderson-Darling, la prueba de Kolmogorov-Smirnov y la prueba de Shapiro-Wilk, que evalúan si los datos se ajustan a una distribución específica.</li>
+
+        <li><strong>Transformaciones de Datos:</strong> Incluyen técnicas como la transformación logarítmica, la raíz cuadrada o Box-Cox para ajustar los datos a distribuciones deseadas.</li>
+    </ul>
+
+    <p>Es importante recordar que no todos los conjuntos de datos siguen distribuciones conocidas, y la elección de técnicas y pruebas debe basarse en la naturaleza de los datos y los objetivos del proyecto de Machine Learning.</p>
+
+							<h2>Preparación de Datos</h2>
+							<p>La preparación de datos desempeña un papel fundamental en el éxito de los proyectos de Machine Learning. A continuación, se destacan aspectos clave de su importancia:</p>
+							<ol>
+								<li><strong>Calidad de los Datos:</strong> Los resultados del modelo dependen de la calidad de los datos, lo que hace que la limpieza y la integridad de los datos sean esenciales.</li>
+
+								<li><strong>Eliminación de Valores Atípicos (Outliers):</strong> La identificación y eliminación de valores atípicos ayudan a evitar la distorsión del modelo debido a datos inusuales o erróneos.</li>
+
+								<li><strong>Manejo de Datos Faltantes:</strong> La preparación de datos implica tratar adecuadamente los valores faltantes, ya sea mediante imputación o eliminación de registros con datos incompletos.</li>
+
+								<li><strong>Normalización y Estandarización:</strong> Para que todas las características tengan un impacto equitativo, es importante normalizar o estandarizar los datos, especialmente cuando tienen escalas diferentes.</li>
+
+								<li><strong>Codificación de Variables Categóricas:</strong> La conversión de variables categóricas en valores numéricos es fundamental, ya que la mayoría de los algoritmos de Machine Learning requieren datos numéricos.</li>
+
+								<li><strong>Selección de Características:</strong> No todas las características son igualmente importantes. La selección de características identifica las más relevantes, reduciendo la complejidad del modelo y mejorando su rendimiento.</li>
+
+								<li><strong>Creación de Características:</strong> A veces, es beneficioso crear nuevas características a partir de las existentes para capturar información adicional y patrones en los datos.</li>
+
+								<li><strong>Balance de Clases:</strong> En problemas de clasificación, el equilibrio de clases es crucial para evitar sesgos en el modelo hacia la clase mayoritaria.</li>
+
+								<li><strong>División de Datos:</strong> La división de datos en conjuntos de entrenamiento, validación y prueba es esencial para evaluar el rendimiento del modelo de manera adecuada.</li>
+
+								<li><strong>Validación Cruzada:</strong> La validación cruzada es fundamental para estimar el rendimiento del modelo de manera robusta y reducir el riesgo de sobreajuste.</li>
+
+								<li><strong>Gestión de la Dimensión:</strong> La alta dimensionalidad de los datos puede dificultar el modelado, y técnicas como el Análisis de Componentes Principales (PCA) ayudan a reducir la dimensión sin perder información relevante.</li>
+
+								<li><strong>Control de Sesgos y Sesgo de Datos:</strong> Es importante considerar y controlar cualquier sesgo en los datos, como sesgos de selección o muestreo, que podrían afectar la capacidad del modelo para generalizar.</li>
+
+								<li><strong>Documentación y Registro:</strong> Mantener un registro de las transformaciones aplicadas a los datos y los pasos de preprocesamiento es crucial para la reproducibilidad y la colaboración en proyectos de Machine Learning.</li>
+							</ol>
+
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
